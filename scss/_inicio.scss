@@ -1,0 +1,25 @@
+$fondoClaro: #fef5e7;
+$fondoOscuro: #38512f;
+$fondoLogoFooter:#4f7442;
+$Color1: #38512f;
+$Color2: #fef5e7;
+$Color3: #3a3630;
+$Color4: #7e8375;
+$Color5: chocolate;
+$fuenteTextos: Arial, Helvetica, sans-serif;
+
+
+main{
+    .section1{
+        .texto_inicio{
+            text-align: center;
+            vertical-align: middle;
+            padding: 40px;
+            
+        }
+        .imagen_inicio{
+            align-items: center;
+            padding-top: 40px;
+        }
+    }
+}

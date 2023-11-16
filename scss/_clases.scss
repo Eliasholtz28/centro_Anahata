@@ -1,0 +1,91 @@
+$fondoClaro: #fef5e7;
+$fondoOscuro: #38512f;
+$fondoLogoFooter:#4f7442;
+$Color1: #38512f;
+$Color2: #fef5e7;
+$Color3: #3a3630;
+$Color4: #7e8375;
+$Color5: chocolate;
+$fuenteTextos: Arial, Helvetica, sans-serif;
+
+
+
+
+
+main{
+    .clases_contenedor{
+        text-align: center;
+        padding: 20px 0;
+
+        .yoga{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .yoga_1{
+                padding: 20px 20px;
+            }
+            .yoga_2{
+                padding: 20px 20px;
+                video{
+                    width: 300px;
+                    border-radius: 20px
+                }
+            }
+            .yoga_3{
+                padding: 20px 55px;
+            }
+        }
+
+        h2{
+            padding: 20px;
+        }
+
+        p{
+            padding: 0px 40px;
+        }
+
+        .gimnasia{
+            display: flex;
+            justify-content: space-between;
+            background-color: $Color1;
+            h2{
+                color: $Color2;
+            }
+            p{
+                color: $Color2;
+            }
+            .gim_1{
+
+                h3{
+                    padding: 10px;
+                    color: $Color2;
+                }
+                p{
+                    color: $Color2;
+                }
+                img{
+                    width: 250px;
+                    height: 200px;
+                    border-radius: 15px;
+                }
+            }
+        }
+
+        .meditacion{
+            display: flex;
+            justify-content: space-between;
+            .meditacion_1{
+                h3{
+                    padding: 15px;
+                }
+                img{
+                    width: 300px;
+                    height: 250px;
+                    border-radius: 15px;
+                }
+            }
+        }
+
+        
+    }
+}
