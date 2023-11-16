@@ -6,7 +6,8 @@ $Color2: #fef5e7;
 $Color3: #3a3630;
 $Color4: #7e8375;
 $Color5: chocolate;
-$fuenteTextos: Arial, Helvetica, sans-serif;
+$fuenteTextos: 'Pridi', serif;
+$fuenteTitulos: 'Exo 2', sans-serif;
 
 
 
@@ -18,12 +19,24 @@ main{
 
         h1{
             padding: 15px;
+            font-family: $fuenteTitulos;
+            color: $Color1;
+            font-size: 2.4rem;
+            font-weight: 800;
         }
         
         .servicio_1{
             .terapia_1{
                 h2{
                     padding: 10px;
+                    color: $Color1;
+                    font-weight: 500;
+                    font-size: 2rem;
+                }
+                p{
+                    font-weight: 300;
+                    color: $Color3;
+                    font-size: 1.3rem;
                 }
             }
         }

@@ -6,18 +6,30 @@ $Color2: #fef5e7;
 $Color3: #3a3630;
 $Color4: #7e8375;
 $Color5: chocolate;
-$fuenteTextos: Arial, Helvetica, sans-serif;
+$fuenteTextos: 'Pridi', serif;
+$fuenteTitulos: 'Exo 2', sans-serif;
 
 main{
     h1{
         text-align: center;
         padding: 20px;
+        font-family: $fuenteTitulos;
+        color: $Color1;
+        font-size: 2.4rem;
+        font-weight: 800;
     }
     .contacto_contenedor{
         .formulario{
+            h2{
+                color: $Color1;
+                font-weight: 500;
+                font-size: 2rem;
+            }
             .for{
                 padding: 10px;
                 color: $Color3;
+                font-weight: 300;
+                font-size: 1.3rem;
                 .form-check-input{
                     background-color: $Color4;
                 }
@@ -32,12 +44,17 @@ main{
                     flex-direction: column;
                     align-items: start;
                     li{
-                        padding: 30px;
+                        padding: 30px 20px;
                         list-style: none;
-                        display: inline-block;
-                        font-size: 1.3rem;
-                        line-height: 2rem;
-                        color: $Color3
+                        color: $Color3;
+                        font-family: $fuenteTextos;
+                        font-weight: 300;
+                        font-size: 1.5rem;
+                        .icon{
+                            font-size: 2rem;
+                            padding-right: 10px;
+                            color: $Color1;
+                        }
                     }
                 }
             }

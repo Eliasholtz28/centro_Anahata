@@ -6,7 +6,8 @@ $Color2: #fef5e7;
 $Color3: #3a3630;
 $Color4: #7e8375;
 $Color5: chocolate;
-$fuenteTextos: Arial, Helvetica, sans-serif;
+$fuenteTextos: 'Pridi', serif;
+$fuenteTitulos: 'Exo 2', sans-serif;
 
 
 main{
@@ -15,6 +16,17 @@ main{
             text-align: center;
             vertical-align: middle;
             padding: 40px;
+            h1{
+                font-family: $fuenteTitulos;
+                font-weight: 800;
+                color: $Color1;
+                font-size: 2.4rem;
+            }
+            p{
+                font-weight: 300;
+                color: $Color3;
+                font-size: 1.4rem;
+            }
             
         }
         .imagen_inicio{

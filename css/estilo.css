@@ -2,65 +2,115 @@ main .section1 .texto_inicio {
   text-align: center;
   vertical-align: middle;
   padding: 40px; }
+  main .section1 .texto_inicio h1 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 800;
+    color: #38512f;
+    font-size: 2.4rem; }
+  main .section1 .texto_inicio p {
+    font-weight: 300;
+    color: #3a3630;
+    font-size: 1.4rem; }
 
 main .section1 .imagen_inicio {
   align-items: center;
   padding-top: 40px; }
 
-main .clases_contenedor {
-  text-align: center;
-  padding: 20px 0; }
-  main .clases_contenedor .yoga {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    main .clases_contenedor .yoga .yoga_1 {
-      padding: 20px 20px; }
-    main .clases_contenedor .yoga .yoga_2 {
-      padding: 20px 20px; }
-      main .clases_contenedor .yoga .yoga_2 video {
+main {
+  overflow-x: hidden; }
+  main .clases_contenedor {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 100%;
+    margin: 0 auto; }
+    main .clases_contenedor h1 {
+      font-family: "Exo 2", sans-serif;
+      color: #38512f;
+      font-size: 2.4rem;
+      font-weight: 800; }
+    main .clases_contenedor .yoga {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      main .clases_contenedor .yoga .yoga_1 {
+        padding: 20px 20px; }
+      main .clases_contenedor .yoga .yoga_2 {
+        padding: 20px 10x; }
+        main .clases_contenedor .yoga .yoga_2 video {
+          width: 300px;
+          border-radius: 20px; }
+      main .clases_contenedor .yoga .yoga_3 {
+        padding: 20px 55px; }
+    main .clases_contenedor h2 {
+      padding: 20px;
+      color: #38512f;
+      font-weight: 500;
+      font-size: 2rem; }
+    main .clases_contenedor p {
+      padding: 0px 40px;
+      font-weight: 300;
+      color: #3a3630;
+      font-size: 1.2rem; }
+    main .clases_contenedor .gimnasia {
+      display: flex;
+      justify-content: space-between;
+      background-color: #38512f; }
+      main .clases_contenedor .gimnasia h2 {
+        color: #fef5e7;
+        font-weight: 500;
+        font-size: 2rem; }
+      main .clases_contenedor .gimnasia p {
+        color: #fef5e7;
+        font-weight: 300;
+        font-size: 1.2rem; }
+      main .clases_contenedor .gimnasia .gim_1 h3 {
+        padding: 10px;
+        color: #fef5e7;
+        font-weight: 500;
+        font-size: 2rem; }
+      main .clases_contenedor .gimnasia .gim_1 p {
+        color: #fef5e7;
+        font-weight: 300;
+        font-size: 1.1rem; }
+      main .clases_contenedor .gimnasia .gim_1 img {
+        width: 250px;
+        height: 200px;
+        border-radius: 15px; }
+    main .clases_contenedor .meditacion {
+      display: flex;
+      justify-content: space-between; }
+      main .clases_contenedor .meditacion .meditacion_1 h3 {
+        padding: 15px;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #38512f; }
+      main .clases_contenedor .meditacion .meditacion_1 p {
+        font-weight: 300;
+        color: #3a3630;
+        font-size: 1.2rem; }
+      main .clases_contenedor .meditacion .meditacion_1 img {
         width: 300px;
-        border-radius: 20px; }
-    main .clases_contenedor .yoga .yoga_3 {
-      padding: 20px 55px; }
-  main .clases_contenedor h2 {
-    padding: 20px; }
-  main .clases_contenedor p {
-    padding: 0px 40px; }
-  main .clases_contenedor .gimnasia {
-    display: flex;
-    justify-content: space-between;
-    background-color: #38512f; }
-    main .clases_contenedor .gimnasia h2 {
-      color: #fef5e7; }
-    main .clases_contenedor .gimnasia p {
-      color: #fef5e7; }
-    main .clases_contenedor .gimnasia .gim_1 h3 {
-      padding: 10px;
-      color: #fef5e7; }
-    main .clases_contenedor .gimnasia .gim_1 p {
-      color: #fef5e7; }
-    main .clases_contenedor .gimnasia .gim_1 img {
-      width: 250px;
-      height: 200px;
-      border-radius: 15px; }
-  main .clases_contenedor .meditacion {
-    display: flex;
-    justify-content: space-between; }
-    main .clases_contenedor .meditacion .meditacion_1 h3 {
-      padding: 15px; }
-    main .clases_contenedor .meditacion .meditacion_1 img {
-      width: 300px;
-      height: 250px;
-      border-radius: 15px; }
+        height: 240px;
+        border-radius: 15px; }
 
 main h1 {
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  font-family: "Exo 2", sans-serif;
+  color: #38512f;
+  font-size: 2.4rem;
+  font-weight: 800; }
+
+main .contacto_contenedor .formulario h2 {
+  color: #38512f;
+  font-weight: 500;
+  font-size: 2rem; }
 
 main .contacto_contenedor .formulario .for {
   padding: 10px;
-  color: #3a3630; }
+  color: #3a3630;
+  font-weight: 300;
+  font-size: 1.3rem; }
   main .contacto_contenedor .formulario .for .form-check-input {
     background-color: #7e8375; }
 
@@ -69,27 +119,54 @@ main .contacto_contenedor .mapa .contacto_iconos ul {
   flex-direction: column;
   align-items: start; }
   main .contacto_contenedor .mapa .contacto_iconos ul li {
-    padding: 30px;
+    padding: 30px 20px;
     list-style: none;
-    display: inline-block;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    color: #3a3630; }
+    color: #3a3630;
+    font-family: "Pridi", serif;
+    font-weight: 300;
+    font-size: 1.5rem; }
+    main .contacto_contenedor .mapa .contacto_iconos ul li .icon {
+      font-size: 2rem;
+      padding-right: 10px;
+      color: #38512f; }
 
 main .servicios_contenedor {
   text-align: center;
   padding: 20px; }
   main .servicios_contenedor h1 {
-    padding: 15px; }
+    padding: 15px;
+    font-family: "Exo 2", sans-serif;
+    color: #38512f;
+    font-size: 2.4rem;
+    font-weight: 800; }
   main .servicios_contenedor .servicio_1 .terapia_1 h2 {
-    padding: 10px; }
+    padding: 10px;
+    color: #38512f;
+    font-weight: 500;
+    font-size: 2rem; }
+  main .servicios_contenedor .servicio_1 .terapia_1 p {
+    font-weight: 300;
+    color: #3a3630;
+    font-size: 1.3rem; }
 
 main .conocenos h1 {
   text-align: center;
-  padding: 10px; }
+  padding: 20px;
+  font-family: "Exo 2", sans-serif;
+  color: #38512f;
+  font-size: 2.4rem;
+  font-weight: 800; }
 
 main .conocenos .nosotros h2 {
-  padding: 30px; }
+  padding: 30px;
+  color: #38512f;
+  font-weight: 500;
+  font-size: 2rem; }
+
+main .conocenos .nosotros p {
+  font-weight: 300;
+  color: #3a3630;
+  font-size: 1.3rem; }
 
 * {
   margin: 0;
@@ -97,7 +174,7 @@ main .conocenos .nosotros h2 {
   box-sizing: border-box; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Pridi", serif;
   background-color: #fef5e7; }
   body .row {
     margin: 0;

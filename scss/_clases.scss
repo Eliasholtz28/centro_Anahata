@@ -6,16 +6,26 @@ $Color2: #fef5e7;
 $Color3: #3a3630;
 $Color4: #7e8375;
 $Color5: chocolate;
-$fuenteTextos: Arial, Helvetica, sans-serif;
+$fuenteTextos: 'Pridi', serif;
+$fuenteTitulos: 'Exo 2', sans-serif;
 
 
 
 
 
 main{
+    overflow-x: hidden;
     .clases_contenedor{
         text-align: center;
         padding: 20px 0;
+        max-width: 100%;
+        margin: 0 auto;
+        h1{
+            font-family: $fuenteTitulos;
+            color: $Color1;
+            font-size: 2.4rem;
+            font-weight: 800;
+        }
 
         .yoga{
             display: flex;
@@ -25,7 +35,7 @@ main{
                 padding: 20px 20px;
             }
             .yoga_2{
-                padding: 20px 20px;
+                padding: 20px 10x;
                 video{
                     width: 300px;
                     border-radius: 20px
@@ -38,10 +48,16 @@ main{
 
         h2{
             padding: 20px;
+            color: $Color1;
+            font-weight: 500;
+            font-size: 2rem;
         }
 
         p{
             padding: 0px 40px;
+            font-weight: 300;
+            color: $Color3;
+            font-size: 1.2rem;
         }
 
         .gimnasia{
@@ -50,18 +66,26 @@ main{
             background-color: $Color1;
             h2{
                 color: $Color2;
+                font-weight: 500;
+                font-size: 2rem;
             }
             p{
                 color: $Color2;
+                font-weight: 300;
+                font-size: 1.2rem;
             }
             .gim_1{
 
                 h3{
                     padding: 10px;
                     color: $Color2;
+                    font-weight: 500;
+                    font-size: 2rem;
                 }
                 p{
                     color: $Color2;
+                    font-weight: 300;
+                    font-size: 1.1rem;
                 }
                 img{
                     width: 250px;
@@ -77,10 +101,18 @@ main{
             .meditacion_1{
                 h3{
                     padding: 15px;
+                    font-weight: 500;
+                    font-size: 2rem;
+                    color: $Color1;
+                }
+                p{
+                    font-weight: 300;
+                    color: $Color3;
+                    font-size: 1.2rem;
                 }
                 img{
                     width: 300px;
-                    height: 250px;
+                    height: 240px;
                     border-radius: 15px;
                 }
             }
