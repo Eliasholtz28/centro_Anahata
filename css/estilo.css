@@ -3,7 +3,7 @@ main .section1 .texto_inicio {
   vertical-align: middle;
   padding: 40px; }
   main .section1 .texto_inicio h1 {
-    font-family: "Exo 2", sans-serif;
+    font-family: "Lekton", sans-serif;
     font-weight: 800;
     color: #38512f;
     font-size: 2.4rem; }
@@ -24,7 +24,7 @@ main {
     max-width: 100%;
     margin: 0 auto; }
     main .clases_contenedor h1 {
-      font-family: "Exo 2", sans-serif;
+      font-family: "Lekton", sans-serif;
       color: #38512f;
       font-size: 2.4rem;
       font-weight: 800; }
@@ -96,7 +96,7 @@ main {
 main h1 {
   text-align: center;
   padding: 20px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Lekton", sans-serif;
   color: #38512f;
   font-size: 2.4rem;
   font-weight: 800; }
@@ -129,13 +129,16 @@ main .contacto_contenedor .mapa .contacto_iconos ul {
       font-size: 2rem;
       padding-right: 10px;
       color: #38512f; }
+    main .contacto_contenedor .mapa .contacto_iconos ul li .maps {
+      width: 300px;
+      height: 300px; }
 
 main .servicios_contenedor {
   text-align: center;
   padding: 20px; }
   main .servicios_contenedor h1 {
     padding: 15px;
-    font-family: "Exo 2", sans-serif;
+    font-family: "Lekton", sans-serif;
     color: #38512f;
     font-size: 2.4rem;
     font-weight: 800; }
@@ -152,7 +155,7 @@ main .servicios_contenedor {
 main .conocenos h1 {
   text-align: center;
   padding: 20px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Lekton", sans-serif;
   color: #38512f;
   font-size: 2.4rem;
   font-weight: 800; }
